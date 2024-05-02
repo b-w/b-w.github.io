@@ -15,20 +15,20 @@ title: Blog
 <div class="breaker"></div>
 <div class="blog-post-preview">
     <p>
-        <span>{{ post.excerpt | strip_html }}</span><a href="{{ post.url | prepend: site.baseurl }}">read full post</a>
+        <span>{% if post.summary %}{{ post.summary }}{% else %}{{ post.excerpt | strip_html }}{% endif %}&nbsp;</span><a href="{{ post.url | prepend: site.baseurl }}">read full post</a>
     </p>
 </div>
 {% endfor %}
 
 <nav class="blog-nav">
     <div class="blog-nav-left">
-        {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}">&lt; Older posts</a>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">&lt; Older posts</a>
         {% endif %}
     </div>
     <div class="blog-nav-right">
-        {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}">Newer posts &gt;</a>
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">Newer posts &gt;</a>
         {% endif %}
     </div>
 </nav>
