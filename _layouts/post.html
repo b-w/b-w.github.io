@@ -1,0 +1,17 @@
+---
+layout: personal
+---
+
+<h1>{{ page.title }}</h1>
+<div class="blog-post-meta">
+    <div>
+        <span>{{ page.date | date: site.formats.date_only }}</span>
+    </div>
+    <div>
+        <a href="{{ site.baseurl }}{{ post.url }}">Permalink</a>
+    </div>
+</div>
+<div class="breaker"></div>
+<div class="blog-post-contents">
+    {{ content }}
+</div>

@@ -1,0 +1,29 @@
+// color
+$blue: #8be9fd !default;
+$pink: #ff79c6 !default;
+$white: #f8f8f2 !default;
+$green: #50fa7b !default;
+$yellow: #f1fa8c !default;
+$gray: #6272a4 !default;
+$purple: #bd93f9 !default;
+
+// syntax
+$pre-border-radius: 0;
+$pre-background-color: #282a36;
+$hljs-comment: $gray;
+$hljs-keyword: $pink;
+$hljs-name: $yellow;
+$hljs-number: $purple;
+$hljs-string: $yellow;
+$hljs-title: $green;
+$hljs-type: $yellow;
+$hljs-tag: $yellow;
+$hljs-attribute: $green;
+$hljs-regexp: $green;
+$hljs-symbol: $yellow;
+$hljs-built-in: $yellow;
+$hljs-preprocessor: $gray;
+$hljs-deletion: $pink;
+$hljs-addition: $green;
+$hljs-change: $yellow;
+$hljs-chunk: $gray;

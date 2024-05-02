@@ -1,0 +1,34 @@
+---
+layout: personal
+title: Blog
+---
+
+<h1>Recent posts</h1>
+
+{% for post in paginator.posts %}
+<h2>{{ post.title }}</h2>
+<div class="blog-post-meta">
+    <div>
+        <span>{{ post.date | date: site.formats.date_only }}</span>
+    </div>
+</div>
+<div class="breaker"></div>
+<div class="blog-post-preview">
+    <p>
+        <span>{{ post.excerpt | strip_html }}</span><a href="{{ post.url | prepend: site.baseurl }}">read full post</a>
+    </p>
+</div>
+{% endfor %}
+
+<nav class="blog-nav">
+    <div class="blog-nav-left">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">&lt; Older posts</a>
+        {% endif %}
+    </div>
+    <div class="blog-nav-right">
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Newer posts &gt;</a>
+        {% endif %}
+    </div>
+</nav>
