@@ -5,20 +5,51 @@ permalink: /404.html
 
 <head>
     <title>404...</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: sans-serif;
+            color: #eee;
+            background-color: #111;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100%;
+        }
+
+        #oldlink {
+            margin-top: 8em;
+            padding: 2em;
+            font-size: 0.7em;
+            background-color: #333;
+        }
+
+        a {
+            color: #c35;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
-    <style>
-        #container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
     <div id="container">
         <div>
-            <h1>404</h1>
-            <p>I'm sorry. My responses are limited. You must ask the right questions.</p>
+            <div>
+                <h1>404</h1>
+                <p>I'm sorry. My responses are limited. You must ask the right questions.</p>
+            </div>
+            <div id="oldlink">
+                <h2>Follow an old link?</h2>
+                <p>In 2024, I've moved my site to a different hosting provider, and rebuilt it from the ground up.</p>
+                <p>As a result, most old links will no longer work. Sorry about that.</p>
+                <p><a href="{% link index.md %}">Go home</a></p>
+            </div>
         </div>
     </div>
 </body>

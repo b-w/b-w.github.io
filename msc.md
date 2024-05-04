@@ -1,5 +1,6 @@
 ---
 layout: personal
+title: MSc
 ---
 
 # Master of Science

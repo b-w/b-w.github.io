@@ -4,7 +4,7 @@ title: "Targeting multiple .NET platforms in a single NuGet package with Visual 
 categories: blog
 ---
 
-As the proud owner of a [NuGet package](https://www.nuget.org/packages/Blazer) (72 downloads and counting!), I'm interested in targeting the new [.NET Standard](https://docs.microsoft.com/en-us/dotnet/articles/standard/library), in order to make my package available on a wider variety of platforms. In a [previous post](/Blog/Post/80), I showed how to create and publish a simple NuGet package. However, this only covered the basic scenario of targeting a single platform. I now want to target multiple platforms: I want to target .NET Standard, while also remaining compatible with version 4.5 of the full .NET Framework.
+As the proud owner of a [NuGet package](https://www.nuget.org/packages/Blazer) (72 downloads and counting!), I'm interested in targeting the new [.NET Standard](https://docs.microsoft.com/en-us/dotnet/articles/standard/library), in order to make my package available on a wider variety of platforms. In a [previous post]({% post_url 2016-12-14-nuget-package %}), I showed how to create and publish a simple NuGet package. However, this only covered the basic scenario of targeting a single platform. I now want to target multiple platforms: I want to target .NET Standard, while also remaining compatible with version 4.5 of the full .NET Framework.
 
 NuGet has [supported](https://docs.microsoft.com/en-us/nuget/create-packages/supporting-multiple-target-frameworks) placing multiple versions of the same library in one package for quite a while now. However, exactly how to create such a package (including setting up Visual Studio) is never fully described. There is [some documentation](https://docs.microsoft.com/en-us/nuget/create-packages/creating-a-package), but it's all scattered information that fails to paint the full picture.
 
@@ -24,7 +24,7 @@ We're starting off with a Visual Studio 2015 solution and an old csproj file. Th
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+        <TargetFramework>netstandard1.3</TargetFramework>
     </PropertyGroup>
 
 </Project>
@@ -106,7 +106,7 @@ So, we'll solve this problem through feature toggles. In the csproj file, I add 
     <!-- [more stuff...] -->
 
     <PropertyGroup Condition="'$(TargetFramework)'=='netstandard1.3'">
-    <DefineConstants>FEATURE_TYPE_INFO</DefineConstants>
+        <DefineConstants>FEATURE_TYPE_INFO</DefineConstants>
     </PropertyGroup>
 
 </Project>
@@ -139,11 +139,11 @@ The fix is simple: we remove all of the attributes from the AssemblyInfo.cs file
     <!-- [more stuff...] -->
 
     <PropertyGroup>
-    <Version>0.1.2</Version>
-    <FileVersion>0.1.2</FileVersion>
-    <Authors>Bart Wolff</Authors>
-    <Description>High-performance ADO.NET object mapper.</Description>
-    <Copyright>Copyright (c) 2016 Bart Wolff</Copyright>
+        <Version>0.1.2</Version>
+        <FileVersion>0.1.2</FileVersion>
+        <Authors>Bart Wolff</Authors>
+        <Description>High-performance ADO.NET object mapper.</Description>
+        <Copyright>Copyright (c) 2016 Bart Wolff</Copyright>
     </PropertyGroup>
 
 </Project>
@@ -159,7 +159,7 @@ Now that we have successfully converted our project to target .NET Standard 1.3,
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
+        <TargetFramework>netstandard1.3</TargetFramework>
     </PropertyGroup>
 
     <!-- [more stuff...] -->
@@ -173,7 +173,7 @@ Now that we have successfully converted our project to target .NET Standard 1.3,
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-    <TargetFrameworks>netstandard1.3;net40;net45;net46</TargetFrameworks>
+      <TargetFrameworks>netstandard1.3;net40;net45;net46</TargetFrameworks>
     </PropertyGroup>
 
     <!-- [more stuff...] -->
@@ -191,14 +191,14 @@ We also need to include our imports, so we also add the following:
     <!-- [more stuff...] -->
 
     <ItemGroup Condition="'$(TargetFramework)'=='net40' OR '$(TargetFramework)'=='net45' OR '$(TargetFramework)'=='net46'">
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System.Data" />
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)'=='net45' OR '$(TargetFramework)'=='net46'">
-    <Reference Include="System.ComponentModel.DataAnnotations" />
+        <Reference Include="System.ComponentModel.DataAnnotations" />
     </ItemGroup>
 
 </Project>
@@ -228,12 +228,12 @@ Now that we have our multi-platform project, it's time to turn this project into
     <!-- [more stuff...] -->
 
     <PropertyGroup>
-    <PackageId>Blazer</PackageId>
-    <PackageVersion>0.1.2</PackageVersion>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <PackageTags>SQL ADO.NET data-access ORM micro-ORM object-mapper</PackageTags>
-    <PackageLicenseUrl>https://github.com/b-w/Blazer/blob/master/LICENSE.txt</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/b-w/Blazer</PackageProjectUrl>
+        <PackageId>Blazer</PackageId>
+        <PackageVersion>0.1.2</PackageVersion>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageTags>SQL ADO.NET data-access ORM micro-ORM object-mapper</PackageTags>
+        <PackageLicenseUrl>https://github.com/b-w/Blazer/blob/master/LICENSE.txt</PackageLicenseUrl>
+        <PackageProjectUrl>https://github.com/b-w/Blazer</PackageProjectUrl>
     </PropertyGroup>
 
 </Project>
