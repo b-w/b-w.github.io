@@ -6,7 +6,7 @@ categories: blog
 
 In this post about the very basics of Microsoft Azure, I'll show how to get started with Table Storage. The Table Storage is a key/value store for non-relational structured data. It offers especially high performance on inserts, and is a good option to use for logging.
 
-We'll use the Storage Account from our [previous post]({% post_url 2018-05-23-azure-essentials-part-4 %}), so we won't have to deal with setting one of those up again.
+We'll use the Storage Account from our [previous post]({% post_url 2018/2018-05-23-azure-essentials-part-4 %}), so we won't have to deal with setting one of those up again.
 
 ## Writing to Table Storage
 

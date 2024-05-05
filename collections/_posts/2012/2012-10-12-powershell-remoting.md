@@ -61,7 +61,7 @@ Pretty neat. But we're not done yet.
 
 ## Part 2: securing the connection
 
-The connection we've established above works over HTTP. I've read the authentication part is encrypted regardless, but it's obviously better to have a nice HTTPS connection for the entire session. It's supposed to be a _secure_ shell, after all. The first thing we need is a certificate, one which is suitable for server authentication and valid for the host we're going to be listening on. Luckily, [I had some lying around]({% post_url 2012-06-07-site-https-support %}). Great, now I won't have to go through that mess again.
+The connection we've established above works over HTTP. I've read the authentication part is encrypted regardless, but it's obviously better to have a nice HTTPS connection for the entire session. It's supposed to be a _secure_ shell, after all. The first thing we need is a certificate, one which is suitable for server authentication and valid for the host we're going to be listening on. Luckily, [I had some lying around]({% post_url 2012/2012-06-07-site-https-support %}). Great, now I won't have to go through that mess again.
 
 Moving on, on the server we dive right into the gritty mess that is WinRM management through PowerShell's WSMan drive:
 

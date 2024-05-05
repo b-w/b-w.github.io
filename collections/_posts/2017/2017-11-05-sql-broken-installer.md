@@ -22,7 +22,7 @@ After loading the installer into dnSpy, we can see it's a WPF app:
 
 ![dnSpy](/assets/img/blog/2017/11/sql-2017-installer-2.png)
 
-The only code we see here contains the UI layer; the actual logic is found in a separate assembly called the InstallerEngine. This assembly is contained as a resource within the installer executable and is loaded dynamically at runtime (a pretty common technique about which I've [written before]({% post_url 2016-09-14-dotnet-dependencies %})).
+The only code we see here contains the UI layer; the actual logic is found in a separate assembly called the InstallerEngine. This assembly is contained as a resource within the installer executable and is loaded dynamically at runtime (a pretty common technique about which I've [written before]({% post_url 2016/2016-09-14-dotnet-dependencies %})).
 
 ![dnSpy](/assets/img/blog/2017/11/sql-2017-installer-3.png)
 

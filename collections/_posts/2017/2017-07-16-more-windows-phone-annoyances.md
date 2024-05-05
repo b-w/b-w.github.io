@@ -4,7 +4,7 @@ title: "More Windows Phone annoyances"
 categories: blog
 ---
 
-There's lots to love about Windows Phone, but since I'm [nitpicking stuff]({% post_url 2017-07-15-windows-phone-annoyance %}) anyway I figure I might as well rant about the rest of my annoyances.
+There's lots to love about Windows Phone, but since I'm [nitpicking stuff]({% post_url 2017/2017-07-15-windows-phone-annoyance %}) anyway I figure I might as well rant about the rest of my annoyances.
 
 ## 1\. Headphone volume
 

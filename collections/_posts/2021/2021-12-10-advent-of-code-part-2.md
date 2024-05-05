@@ -4,7 +4,7 @@ title: "Advent of Code 2021, days 6 to 10"
 categories: blog
 ---
 
-Continuing our Advent of Code adventure from [last time]({% post_url 2021-12-05-advent-of-code-part-1 %}). Let's see what the next batch of puzzles has in store.
+Continuing our Advent of Code adventure from [last time]({% post_url 2021/2021-12-05-advent-of-code-part-1 %}). Let's see what the next batch of puzzles has in store.
 
 ## Day 6
 

@@ -4,7 +4,7 @@ title: "C# features: async and await"
 categories: blog
 ---
 
-My recent [upgrade to Visual Studio 2012]({% post_url 2013-03-07-visual-studio-2012 %}) means I now also have the new features in .NET version 4.5 to play with. The one I was most exited about was the `async`/`await` pair of keywords introduced to C#. These two keywords aim to offer a relatively simple way of doing asynchronous programming, without all the headaches this sort of thing normally creates. Today I'll go over the syntax and semantics of these two new keywords.
+My recent [upgrade to Visual Studio 2012]({% post_url 2013/2013-03-07-visual-studio-2012 %}) means I now also have the new features in .NET version 4.5 to play with. The one I was most exited about was the `async`/`await` pair of keywords introduced to C#. These two keywords aim to offer a relatively simple way of doing asynchronous programming, without all the headaches this sort of thing normally creates. Today I'll go over the syntax and semantics of these two new keywords.
 
 ## async
 

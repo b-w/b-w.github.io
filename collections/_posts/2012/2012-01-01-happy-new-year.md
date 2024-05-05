@@ -6,7 +6,7 @@ categories: blog
 
 A very happy new year to all 9 unique visitors to my blog!
 
-Before we dive into the year that will disappoint conspiracy theorists around the globe, let's go a bit deeper into those numbers. First, demographics. Out of those 9 visitors, 3 were search engine bots, 2 were Dutch, 2 were Italian, 1 was French, and 1 was American. Interesting. Now, what were they all looking at? Well, the most popular article was my [unboxing of the Asus Eee Note]({% post_url 2011-11-02-azure-eee-note-impressions %}), which drew my Italian and French visitors. Both the search engines and the rest of the visitors preferred the homepage. Rough estimates put total bandwidth usage for my blog this year on about 40 MB.
+Before we dive into the year that will disappoint conspiracy theorists around the globe, let's go a bit deeper into those numbers. First, demographics. Out of those 9 visitors, 3 were search engine bots, 2 were Dutch, 2 were Italian, 1 was French, and 1 was American. Interesting. Now, what were they all looking at? Well, the most popular article was my [unboxing of the Asus Eee Note]({% post_url 2011/2011-11-02-azure-eee-note-impressions %}), which drew my Italian and French visitors. Both the search engines and the rest of the visitors preferred the homepage. Rough estimates put total bandwidth usage for my blog this year on about 40 MB.
 
 Not included in those 9 but deserving special mention nonetheless is the fellow with the Chinese IP-address who on three separate occasions tried retrieving non-existent PHP configuration files from my server. I don't really count you as a visitor as you never looked at an actual page, but I hope to see you again in the future also.
 

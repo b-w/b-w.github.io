@@ -4,7 +4,7 @@ title: "Let's build another gaming PC"
 categories: blog
 ---
 
-Exactly 5 years ago (to the day) [I built a gaming PC]({% post_url 2016-07-30-gaming-pc-build %}). That PC has been my faithful gaming rig ever since. I've never upgraded even a single part, because it never seemed necessary. It could always run whatever I threw at it. But when upgrading finally did start to seem necessary, so much time had passed that it almost seemed like a waste to sink more money into such an old machine. I would have to upgrade so much stuff (e.g. upgrading the processor to a recent one required upgrading the motherboard, etc), that it made more sense (to me anyway) to just do a complete rebuild. It would simply be a matter of when.
+Exactly 5 years ago (to the day) [I built a gaming PC]({% post_url 2016/2016-07-30-gaming-pc-build %}). That PC has been my faithful gaming rig ever since. I've never upgraded even a single part, because it never seemed necessary. It could always run whatever I threw at it. But when upgrading finally did start to seem necessary, so much time had passed that it almost seemed like a waste to sink more money into such an old machine. I would have to upgrade so much stuff (e.g. upgrading the processor to a recent one required upgrading the motherboard, etc), that it made more sense (to me anyway) to just do a complete rebuild. It would simply be a matter of when.
 
 Well guess what? It's that time.
 

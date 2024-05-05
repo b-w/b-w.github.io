@@ -4,7 +4,7 @@ title: "Decoding the Dutch domestic CoronaCheck QR code"
 categories: blog
 ---
 
-This is a follow up to my previous post, [Decoding the EU Digital Covid Certificate QR code]({% post_url 2021-08-08-eu-covid-qr %}). In that post, I looked at the contents of the EU's international digital Covid QR code. In this post, I'll be doing the same for the Dutch domestic CoronaCheck QR code.
+This is a follow up to my previous post, [Decoding the EU Digital Covid Certificate QR code]({% post_url 2021/2021-08-08-eu-covid-qr %}). In that post, I looked at the contents of the EU's international digital Covid QR code. In this post, I'll be doing the same for the Dutch domestic CoronaCheck QR code.
 
 The Dutch CoronaCheck certificate, contained within a QR code, is designed by the Dutch government, and serves essentially the same purpose as the EU's DCC, namely to allow people to prove that they are "Covid-safe". It's mainly used by people wishing to enter venues such as bars, festivals, and other types of events. As the name suggests, the CoronaCheck certificate is intended for domestic use only, and is currently not accepted outside of The Netherlands.
 

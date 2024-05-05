@@ -20,7 +20,7 @@ The blade for creating a new App registration will open:
 
 ![](/assets/img/blog/2018/05/app-registration-create.png)
 
-We'll give the registration a name, and make sure "Web app / API" is selected, as we're registering an MVC application. Finally, we'll provide a sign-on URL. We'll use a localhost address for now, for development purposes, but this will be changed later to the URL of [our app in Azure]({% post_url 2018-05-09-azure-essentials-part-2 %}).
+We'll give the registration a name, and make sure "Web app / API" is selected, as we're registering an MVC application. Finally, we'll provide a sign-on URL. We'll use a localhost address for now, for development purposes, but this will be changed later to the URL of [our app in Azure]({% post_url 2018/2018-05-09-azure-essentials-part-2 %}).
 
 Hit "create" to create the new App registration.
 

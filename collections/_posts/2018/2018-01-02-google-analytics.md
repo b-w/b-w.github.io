@@ -24,7 +24,7 @@ The overwhelming majority of visitors are from the US: roughly 1/3rd. The other 
 
 ## Pages
 
-The most popular page, by a huge margin, has been [the article I've written]({% post_url 2017-03-20-nuget-multiple-targets %}) about NuGet package creation. This single page has accounted for 46% of all pageviews in 2017\. I hope at least some of those people found it useful. Other popular pages include [the homepage]({% link index.md %}) (surprise surprise!), my [article]({% post_url 2016-12-10-ioptron-skytracker %}) about the SkyTracker, and my [series]({% post_url 2016-10-08-shenzhen-io-part-1 %}) [of]({% post_url 2016-10-12-shenzhen-io-part-2 %}) [adventures]({% post_url 2016-10-15-shenzhen-io-part-3 %}) [with]({% post_url 2016-10-17-shenzhen-io-part-4 %}) SHENZHEN I/O.
+The most popular page, by a huge margin, has been [the article I've written]({% post_url 2017/2017-03-20-nuget-multiple-targets %}) about NuGet package creation. This single page has accounted for 46% of all pageviews in 2017\. I hope at least some of those people found it useful. Other popular pages include [the homepage]({% link index.md %}) (surprise surprise!), my [article]({% post_url 2016/2016-12-10-ioptron-skytracker %}) about the SkyTracker, and my [series]({% post_url 2016/2016-10-08-shenzhen-io-part-1 %}) [of]({% post_url 2016/2016-10-12-shenzhen-io-part-2 %}) [adventures]({% post_url 2016/2016-10-15-shenzhen-io-part-3 %}) [with]({% post_url 2016/2016-10-17-shenzhen-io-part-4 %}) SHENZHEN I/O.
 
 ## Referrals
 
