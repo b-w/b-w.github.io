@@ -54,7 +54,7 @@ div.container {
 
 section.sidebar {
     position: relative;
-    padding: 2rem 1rem;
+    padding: 0.5rem 1rem 2rem 1rem;
 }
 
 section.sidebar, section.footer {
@@ -261,6 +261,7 @@ p code {
         background-repeat: repeat-x;
         border-right: 0.5rem solid $highlight-color;
         border-bottom: none;
+        padding: 1rem;
     }
 
     section.footer {
