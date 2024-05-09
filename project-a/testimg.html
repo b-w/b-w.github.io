@@ -41,7 +41,13 @@ layout: base
             id: "osd",
             tileSources: "/assets/img/osd/testimg.dzi",
             showNavigator:  true,
-            showNavigationControl: false
+            showNavigationControl: false,
+            zoomPerScroll: 1.5,
+            gestureSettingsMouse: {
+                flickEnabled: true,
+                flickMinSpeed: 800,
+                flickMomentum: 0.1
+            }
         });
     </script>
 </body>
