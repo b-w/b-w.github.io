@@ -305,3 +305,19 @@ On the tech side, there were several things I'd never worked with before: Ruby, 
 Other than that, migrating all of my old content also took up a significant amount of my time, mainly thanks to the large volume of blog posts. Jekyll actually has a bunch of [importers](https://import.jekyllrb.com/) that can help you quickly port an existing blog, but of course since I'm using a custom CMS, I can't use any of them. If only I'd just used WordPress instead of being such a goddamned hipster with my homebrew artisan blog engine. I actually considered not porting my older blog posts, since pretty much all of them are garbage, but I also didn't feel right just sending them into the memory hole. So, I bit the bullet and grinded all of them out. I was able to convert the HTML to Markdown quickly enough using an online tool, but I had to do each post one at the time and also manually fix all of the code blocks as well as the links to other pages. It actually took me several hours to get everything moved over.
 
 But hey, here we are. A new home.
+
+## Linking our custom domain
+
+Of course, having the site running on GitHub Pages is nice, but having a custom domain for it would be nicer. After all, dozens of visitors manage to find my homepage at [bartwolff.com](https://bartwolff.com/) each year, not some `*.github.io` subdomain.
+
+Fortunately, this too is surprisingly easy to set up.
+
+All we have to do is follow [GitHub's own docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain) for creating a few `A` records in our domain's DNS configuration, along with a `CNAME` record for the `www` subdomain that points to `b-w.github.io`. Then we wait a bit for this configuration to propagate. This could theoretically take several hours, or even days, but in my case the changes I made at my hosting provider here in The Netherlands were reflected in Cloudflare and Google's DNS servers in minutes.
+
+We can then add our custom domain in our GitHub Pages config:
+
+![](/assets/img/blog/2024/05/gh-pages-3.png)
+
+This takes a few minutes initially as GitHub generates our Let's Encrypt certificate for us (all automatically managed behind the scenes) and then we're good to go. Now we have our own domain pointing to a GitHub Pages hosted site, with SSL.
+
+Hosting a (relatively) simple static site is surprisingly easy these days. Not to mention basically free, as I'm now left only paying a couple bucks each year for my domain, and have no more hosting costs. Yay!
