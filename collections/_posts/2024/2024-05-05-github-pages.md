@@ -321,3 +321,21 @@ We can then add our custom domain in our GitHub Pages config:
 This takes a few minutes initially as GitHub generates our Let's Encrypt certificate for us (all automatically managed behind the scenes) and then we're good to go. Now we have our own domain pointing to a GitHub Pages hosted site, with SSL.
 
 Hosting a (relatively) simple static site is surprisingly easy these days. Not to mention basically free, as I'm now left only paying a couple bucks each year for my domain, and have no more hosting costs. Yay!
+
+## Maintenance
+
+Every now and then GitHub helpfully notifies us about security vulnerabilities that have been identified in one of the many Ruby gems we (directly or indirectly) rely on. There's basically two things we need to do to keep our site's components up-to-date:
+
+Run this to update (globally) installed Ruby gems:
+
+```
+bw@ELYSIUM:~/dev/sites/bw-com$ gem update
+```
+
+And run this to update gems used in our project:
+
+```
+bw@ELYSIUM:~/dev/sites/bw-com$ bundle update
+```
+
+Not that a static site like this is going to run into a whole lot of issues, bit still. It's good practice.
