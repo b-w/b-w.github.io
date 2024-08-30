@@ -4,7 +4,7 @@ title: "iOptron SkyTracker Pro first impressions"
 categories: blog
 ---
 
-As someone who's into [astronomy]({% link astro/index.md %}) but is also quite lazy, I occasionally set up my DSLR on my balcony to take some shots of the night sky. It's a low-effort way of getting some nice views, in spite of all the light pollution we've got going on here. Until recently, I worked with a static tripod, which means I was very limited in my exposure times. To rectify this particular shortcoming in my setup, I recently got myself an [iOptron SkyTracker Pro](http://www.ioptron.com/product-p/3322.htm), which is a very affordable camera tracking mount. I thought I'd use this post to share some of my first impressions.
+As someone who's into [astronomy]({% link stuff/astro/index.md %}) but is also quite lazy, I occasionally set up my DSLR on my balcony to take some shots of the night sky. It's a low-effort way of getting some nice views, in spite of all the light pollution we've got going on here. Until recently, I worked with a static tripod, which means I was very limited in my exposure times. To rectify this particular shortcoming in my setup, I recently got myself an [iOptron SkyTracker Pro](http://www.ioptron.com/product-p/3322.htm), which is a very affordable camera tracking mount. I thought I'd use this post to share some of my first impressions.
 
 ## Setup
 
@@ -50,4 +50,4 @@ Exposures from the same night that were 10 seconds long show no trailing whatsoe
 
 ## Samples
 
-I have some recent shots taken with this new setup over on my [astronomy]({% link astro/index.md %}) page. Please keep in mind that these are all taken under heavy light pollution, and judge accordingly... :)
+I have some recent shots taken with this new setup over on my [astronomy]({% link stuff/astro/index.md %}) page. Please keep in mind that these are all taken under heavy light pollution, and judge accordingly... :)

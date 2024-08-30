@@ -17,54 +17,54 @@ As for my subject matter, I mostly like shooting architecture and abstract stuff
 
 ## 2018
 
-[November: GLOW]({% link photo/2018/glow.md %})
+[November: GLOW]({% link stuff/photo/2018/glow.md %})
 
-[August]({% link photo/2018/08.md %})
+[August]({% link stuff/photo/2018/08.md %})
 
-[June]({% link photo/2018/06.md %})
+[June]({% link stuff/photo/2018/06.md %})
 
-[May]({% link photo/2018/05.md %})
+[May]({% link stuff/photo/2018/05.md %})
 
-[April]({% link photo/2018/04.md %})
+[April]({% link stuff/photo/2018/04.md %})
 
-[March]({% link photo/2018/03.md %})
+[March]({% link stuff/photo/2018/03.md %})
 
 ## 2017
 
-[November: GLOW]({% link photo/2017/glow.md %})
+[November: GLOW]({% link stuff/photo/2017/glow.md %})
 
-[October: ESA Open Day]({% link photo/2017/esa.md %})
+[October: ESA Open Day]({% link stuff/photo/2017/esa.md %})
 
-[July]({% link photo/2017/07.md %})
+[July]({% link stuff/photo/2017/07.md %})
 
-[June]({% link photo/2017/06.md %})
+[June]({% link stuff/photo/2017/06.md %})
 
-[May]({% link photo/2017/05.md %})
+[May]({% link stuff/photo/2017/05.md %})
 
-[April]({% link photo/2017/04.md %})
+[April]({% link stuff/photo/2017/04.md %})
 
-[March]({% link photo/2017/03.md %})
+[March]({% link stuff/photo/2017/03.md %})
 
-[January: New Year's Eve]({% link photo/2017/newyear.md %})
+[January: New Year's Eve]({% link stuff/photo/2017/newyear.md %})
 
 ## 2016
 
-[November]({% link photo/2016/11.md %})
+[November]({% link stuff/photo/2016/11.md %})
 
-[November: GLOW]({% link photo/2016/glow.md %})
+[November: GLOW]({% link stuff/photo/2016/glow.md %})
 
 ## Old stuff
 
 Some older shots, from before I got my DSLR. These are all taken with my smartphone (Nokia Lumia 920 and 930).
 
-[2015]({% link photo/2015.md %})
+[2015]({% link stuff/photo/2015.md %})
 
-[2014]({% link photo/2014.md %})
+[2014]({% link stuff/photo/2014.md %})
 
 ## Ancient stuff
 
 Here's a couple of _really_ old photos, taken with my very first camera: a Canon IXUS 870 IS.
 
-[2010]({% link photo/2010.md %})
+[2010]({% link stuff/photo/2010.md %})
 
-[2009]({% link photo/2009.md %})
+[2009]({% link stuff/photo/2009.md %})
