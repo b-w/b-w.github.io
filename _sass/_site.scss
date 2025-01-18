@@ -40,6 +40,12 @@ img {
     margin: 0 auto;
 }
 
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 85%;
+}
+
 blockquote {
     background: $quote-bg-color;
     border-left: 1rem solid $border-color;
