@@ -9,6 +9,7 @@ html, body {
     font-size: 16px;
     font-family: $content-font;
     font-weight: 400;
+    font-display: optional;
 }
 
 body {
@@ -94,6 +95,7 @@ section.footer {
     font-size: 2em;
     font-family: $content-font;
     font-variant: small-caps;
+    font-display: optional;
 }
 
     .homelink:hover {
