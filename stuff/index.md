@@ -12,6 +12,7 @@ The internet might not be a big truck that you just dump something on, but this 
 Content that I'm at least occasionally still updating:
 
 - [3D modeling]({% link stuff/3d/index.md %}): my exploits in the field of amateur 3D modeling and rendering.
+- [Ducks]({% link stuff/ducks/index.md %}): I guess there are ducks.
 
 ## Archived stuff
 
