@@ -21,8 +21,12 @@ Using equipment beyond my skill level (a borrowed beast of a professional telezo
 
 ## 4 December 2016: HIP 30520
 
-I shot some no-name region of space to try out my new SkyTracker setup. I shot at 200mm to really test out the polar alignment and tracking, and see how long I could make my exposures. It turns out I have to worry about light pollution long before I have to worry about star trails now. Afterwards, it took me some puzzling to figure out what part of space I had actually captured. The two main stars in the frame are called HIP 30520 and HIP 30247\. Fancy! [View Results]({% link stuff/astro/20161204.md %})
+I shot some no-name region of space to try out my new SkyTracker setup. I shot at 200mm to really test out the polar alignment and tracking, and see how long I could make my exposures. It turns out I have to worry about light pollution long before I have to worry about star trails now. Afterwards, it took me some puzzling to figure out what part of space I had actually captured. The two main stars in the frame are called HIP 30520 and HIP 30247. Fancy! [View Results]({% link stuff/astro/20161204.md %})
 
 ## 5 December 2016: Polaris
 
 What better way to celebrate my new SkyTracker than by shooting Polaris, my all-important guide star for better astrophotography? I shot at a lower ISO and didn't bring out as much stars in post as I could, in an attempt to reduce the noise in the picture. The result is cleaner, but also doesn't contain that many stars. I'm not sure if this is an improvement. [View Results]({% link stuff/astro/20161205.md %})
+
+## 13 July 2020: C/2020 F3 (NEOWISE)
+
+I had no intention of trying to capture comet NEOWISE, but on a whim I decided to try and see if I could at least view it through some old binoculars. When it turned out that, yes, I could in fact see it quite easily even right from inside my apartment (that is, from behind a window and with significant light pollution), I decided I might as well take some shots with my camera. The results are... okay. [View Results]({% link stuff/astro/20200713.md %})
