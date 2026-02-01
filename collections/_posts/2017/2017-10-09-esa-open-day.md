@@ -5,7 +5,7 @@ categories: blog
 summary: "I attended the ESA Open Day this year, at ESTEC in Noordwijk (The Netherlands)."
 ---
 
-![ESA Open Day 2017](/assets/img/blog/Photography/2017-10/DSC_0092.jpg)
+![ESA Open Day 2017](/assets/img/blog/2017/10/DSC_0092.jpg)
 
 So, I attended the [ESA Open Day](http://www.esa.int/About_Us/ESTEC/Open_day_2017) this year, at ESTEC in Noordwijk (The Netherlands).
 
