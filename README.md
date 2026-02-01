@@ -12,4 +12,4 @@ No license is provided for any content in this repository.
 
 ## Copyright
 
-Copyright © 2011—2025 Bart Wolff. All rights reserved.
+Copyright © 2011—2026 Bart Wolff. All rights reserved.
